@@ -1,0 +1,84 @@
+#main_title{ font-size:100px;
+	box-shadow: 0 0 50px white;
+    position: absolute;
+    width:100%;
+    text-align: center;
+    margin-top:0%;
+    color:white;
+    letter-spacing: 15px;
+    transition: 4.0s;
+}
+
+body{background-color: white;
+	 letter-spacing: 4px;
+     margin:0;
+     font-family: 'Amatic SC', cursive;
+     font-style: italic;
+     }
+canvas{
+	background-image: url(sky.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: block;
+	background-color:pink;
+}
+input{
+    margin-top: 300px;
+	display: block;
+	font-size: 2em;
+	border-radius:0px 0px 0px 20px; 
+	position: absolute;
+	background-color: white;
+	height: 6%;
+	width: 800px;
+	z-index: 1000;
+}
+#in{
+	font-family: 'Amatic SC', cursive;
+	transition: .5s opacity;
+	opacity: 80%;
+}
+#in:hover{
+	opacity: 100%;
+}
+.messege{
+	word-wrap: break-word;
+	z-index: 1000;
+	margin-top:20px;
+	font-size: 29px;
+	color: white;
+	border-bottom: 5px solid white;
+}
+.messege_block{
+	box-sizing: border-box;
+	overflow: auto;
+	border-radius: 20px;
+	text-indent: 20px;
+	position: absolute;
+	width: 100%;
+	max-width: 808px;
+	height: 500px;
+	max-height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1000;
+}
+.submit{
+	border-radius:0px 0px 100px 0px;
+	font-size: 50px;
+	width: 130px;
+	height: 6%;
+	transition: 0.5s opacity;
+}
+.submit:hover{
+	opacity: 90%;
+}
+@media (max-width: 1200px) {
+     .messege{font-size: 50px;
+
+     }
+     #in:focus {
+    transition: 0.9s;
+    height: 200px;
+
+}
+ }
